@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="items">
+  <view class="item">
+    <image src="https://avatars2.githubusercontent.com/u/6915570?v=4&s=120"></image>
+    <navigator >{{item.title}}</navigator>
+  </view>
+</view>

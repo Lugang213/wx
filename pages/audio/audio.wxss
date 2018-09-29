@@ -1,0 +1,17 @@
+.test-nav{
+  position: fixed;
+  bottom:0;
+  width:750rpx;
+  height:100rpx;
+  background:#000;
+  color:#fff;
+  display: flex;
+  
+}
+.test-nav text{
+  width:50rpx;
+  height:100rpx;
+  white-space: nowrap;
+  line-height:100rpx;
+  margin:0 60rpx;
+}
