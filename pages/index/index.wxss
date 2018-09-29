@@ -1,1 +1,43 @@
 /**index.wxss**/
+.items{
+  width: 710rpx;
+  margin: 0 auto;
+}
+.items .item{
+  display: flex;
+  margin-top:20rpx;
+}
+.items .item image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.items .item .title{
+  /* width: 600rpx; */
+  flex:1;
+  color: green;
+  background:#efefef;
+  line-height: 100rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 20rpx;
+}
+
+.test-nav{
+  position: fixed;
+  bottom:0;
+  width:750rpx;
+  height:100rpx;
+  background:#000;
+  color:#fff;
+  display: flex;
+  
+}
+.test-nav text{
+  width:50rpx;
+  height:100rpx;
+  white-space: nowrap;
+  line-height:100rpx;
+  margin:0 60rpx;
+}

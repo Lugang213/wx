@@ -1,0 +1,4 @@
+<!--文章详情.wxml-->
+<view class="container log-list">
+  <view class="article-title">{{item.title}}</view>
+</view>

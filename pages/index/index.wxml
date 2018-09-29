@@ -1,7 +1,13 @@
-<!--index.wxml-->
 <view class="items">
-  <view class="item">
-    <image src="https://avatars2.githubusercontent.com/u/6915570?v=4&s=120"></image>
-    <navigator >{{item.title}}</navigator>
+  <view class='item' wx:for="{{items}}" wx:key="items">
+    <image src="{{item.author.avatar_url}}"></image>
+    <navigator class='title' url="/pages/articles/articles?id={{item.id}}">{{item.title}}</navigator>
   </view>
+</view>
+
+<view class="test-nav">
+  <view><text>首页</text></view>
+  <view><text>通讯录</text></view>
+  <view><text>发现</text></view>
+  <view><text>我</text></view>
 </view>

@@ -1,12 +1,14 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/articles/articles",
     "pages/logs/logs"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "CNode社区",
     "navigationBarTextStyle":"black"
   }
 }
